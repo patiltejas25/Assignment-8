@@ -1,0 +1,76 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+	font-weight: normal;
+}
+
+input {
+	width: 200px;
+	margin: 10px 0px;
+	border: 2px solid #57a1dd;
+	padding: 8px 0px;
+}
+
+div p {
+	width: 100px;
+	float:left;
+}
+
+.error {
+	font-size: 15px;
+	padding-left: 8px;
+	color: red;
+}
+
+button {
+	background-color: #57a1dd;
+	color: white;
+	border: 1px solid black;
+}
+
+.add-btn {
+	width: 85px;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+	margin: 10px 0px 10px 215px;
+}
+
+table {
+	width: 800px;
+}
+
+table tr:first-of-type {
+	background-color: #57a1dd !important;
+	font-weight: bold;
+	color: white;
+}
+
+td {
+	width: 200px;
+	height: 30px;
+	border-right: 0px solid white;
+	border-bottom: 0px solid white;
+	padding: 3px 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+tr:nth-of-type(n) {
+	background-color: #cdd9e9;
+}
+
+tr:nth-of-type(2n) {
+	background-color: #ebeff5;
+}
+
+tr td:nth-of-type(4) {
+	text-align: center;
+}
+
+.del-btn {
+	text-align: center;
+	width: 85px;
+	height: 20px;
+}
